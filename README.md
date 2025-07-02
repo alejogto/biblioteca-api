@@ -53,40 +53,9 @@ DB_NAME=biblioteca
 
 ---
 
-## 🐳 Ejecución con Docker (Recomendado)
+## 🐳 Ejecución de base de datos con Docker 
 
-1. Asegúrate de tener Docker corriendo  
-2. Ejecuta:
 
-```bash
-docker-compose up --build
-```
-
-Esto levanta:
-
-- 🛠️ NestJS API: http://localhost:3000  
-- 🐬 MySQL: localhost:3306  
-- 🔍 phpMyAdmin: http://localhost:8081  
-  - Usuario: `root`  
-  - Contraseña: `admin123`
-
----
-
-## 🧪 Ejecución manual (sin Docker)
-
-1. Instala las dependencias:
-
-```bash
-npm install
-```
-
-2. Crea la base de datos `biblioteca` en tu servidor MySQL
-
-3. Ejecuta el proyecto:
-
-```bash
-npm run start:dev
-```
 
 ---
 
